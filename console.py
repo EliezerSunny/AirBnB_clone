@@ -5,7 +5,6 @@ import re
 from shlex import split
 from models import storage
 from models.base_model import BaseModel
-from models.id import Id
 from models.user import User
 from models.state import State
 from models.city import City
@@ -33,7 +32,7 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """Defines the AirBnB command interpreter.
+    """Defines the HolbertonBnB command interpreter.
 
     Attributes:
         prompt (str): The command prompt.
@@ -42,7 +41,6 @@ class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
     __classes = {
         "BaseModel",
-	"Id",
         "User",
         "State",
         "City",
