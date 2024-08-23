@@ -1,27 +1,30 @@
-.places { 
-    max-width: 1000px;
-    margin: 0px auto;
-    font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.places h1 {
+.places {
     width: 100%;
-    padding-left: 22px;
-}
-
-.places article {
-    width: 390px;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid red;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .places > h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    flex: 0 1 100%;
+  }
+  
+  article {
+    border: 1px solid #ff5a5f;
     border-radius: 4px;
     display: flex;
     justify-content: center;
-}
-
-.places article h2 {
-
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  article > h2 {
     font-size: 30px;
-}
+  }

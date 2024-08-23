@@ -1,27 +1,15 @@
-html, body {
-    height: 100%;
-}
-
 body {
     margin: 0;
     padding: 0;
     color: #484848;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    position: relative;
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-.container {
-    width: 100%;
+    font-family: Circular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .container {
     max-width: 1000px;
-    margin: 30px auto;
-    position: relative;
-    flex: 1 0 auto;
-}
-
-p {
-    text-align: center;
-    vertical-align: middle;
-}
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }

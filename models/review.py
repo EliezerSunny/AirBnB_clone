@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-"""Defines the Review class."""
+"""Module base_model
+
+This Module contains a definition for Amenity Class
+"""
+
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Represent a review.
+    """A class that represents a review
 
     Attributes:
         place_id (str): The Place id.
